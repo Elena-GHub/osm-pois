@@ -1,4 +1,5 @@
 from django.db import models
+from .tag import Tag
 # from django.contrib.gis.db import models
 
 
@@ -11,6 +12,7 @@ class Poi(models.Model):
     # coordinates = models.PointField()
     coordinates = models.CharField(max_length=100)
     social_media = models.CharField(max_length=300)
+    tags = models.ManyToManyField(Tag)
 
 
     def __str__(self):
