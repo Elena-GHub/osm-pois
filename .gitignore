@@ -1,0 +1,7 @@
+__pycache__
+upoi/models/__pycache__/
+upoi/poi/__pycache__/admin.cpython-38.pyc
+upoi/poi/migrations/0003_auto_20210109_1448.py
+upoi/poi/migrations/*.py
+upoi/poi/models/__pycache__/poi.cpython-38.pyc
+upoi/poi/models/__pycache__/__init__.cpython-38.pyc
